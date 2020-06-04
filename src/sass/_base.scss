@@ -1,0 +1,43 @@
+// Color Variables
+$color-primary: #B10F2E;
+$color-light: #fff;
+$color-dark: #262626;
+
+// Breakpoint Variables
+$bp-largest: 75em;     // 1200px
+$bp-large: 68.75em;    // 1100px
+$bp-medium: 56.25em;   // 900px
+$bp-small: 37.5em;     // 600px
+$bp-smallest: 31.25em; // 500px
+
+// Margin-bottom
+.mb-sm { margin-bottom: 3rem; }
+.mb-md { margin-bottom: 5rem; }
+.mb-lg { margin-bottom: 8rem; }
+
+
+// Global Reset
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+html {
+    font-size: 62.5%; // Setting px size to 10px for easier use of rem
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+}
+
+.about {
+    height: 100vh;
+}
+
+.footer {
+    height: 100vh;
+}
