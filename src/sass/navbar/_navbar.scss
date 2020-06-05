@@ -1,13 +1,20 @@
-// Navbar Container
 .navbar {
-    // border-bottom: .1rem solid $color-dark;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: $color-light;
+    border-bottom: .1rem solid $color-dark;
+    height: 6rem;
+    min-width: 100%;
 
-    display: grid;
-    place-items: center;
-    text-align: center;
+    &__nav {
+        display: flex;
+        height: 100%;
+        align-items: center;
+        padding: 0 3rem;
+    }
 
     &__logo {
-        margin: 1rem 0;
         font-size: 1.6rem;
         color: $color-dark;
 
@@ -18,52 +25,44 @@
         }
     }
 
+    &__spacer {
+        flex: 1;
+    }
+
     &__list {
-        width: 100%;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
         display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-        background-color: $color-primary;
-        // border-top: .1rem solid $color-dark;
     }
 
     &__item {
-        font-size: 1.4rem;
-        list-style-type: none;
-        margin: .5rem 0;
-        color: $color-light;
+
+        &:not(:last-child) {
+            margin-right: 1.5rem;
+        }
+       
     }
 
     &__link {
-        padding: .25rem 1.5rem;
         text-transform: uppercase;
+        font-size: 1.6rem;
+        font-weight: 500;
+        letter-spacing: .1rem;
+        padding: .5rem 1.25rem;
         cursor: pointer;
+
+        &:hover {
+            background-color: $color-primary;
+            border-radius: .25rem;
+            color: $color-light;
+            transition: all .3s ease;
+        }
     }
 }
 
-@media screen and (min-width: $bp-small) {
-    .navbar {
-        border-bottom: .1rem solid $color-dark;
-        position: sticky;
-        top: 0;
-        z-index: 100;
-
-        display: grid;
-        grid-template-columns: repeat(12, 1fr);
-        column-gap: 2rem;
-
-        &__logo {
-            grid-column: 2 / 3;
-        }
-
-        &__list {
-            grid-column: 8 / 12;
-            background-color: transparent;
-        }
-
-        &__link {
-            font-weight: 500;
-            color: $color-dark;
-        }
+@media (max-width: $bp-tablet) {
+    .navbar__list {
+        display: none;
     }
 }

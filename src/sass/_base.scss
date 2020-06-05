@@ -4,11 +4,9 @@ $color-light: #fff;
 $color-dark: #262626;
 
 // Breakpoint Variables
-$bp-largest: 75em;     // 1200px
-$bp-large: 68.75em;    // 1100px
-$bp-medium: 56.25em;   // 900px
-$bp-small: 37.5em;     // 600px
-$bp-smallest: 31.25em; // 500px
+$bp-phone: 26.5em; // 425px
+$bp-tablet: 48em; // 768px
+$bp-desktop: 75em; // 1200px
 
 // Margin-bottom
 .mb-sm { margin-bottom: 3rem; }
@@ -27,17 +25,15 @@ $bp-smallest: 31.25em; // 500px
 
 html {
     font-size: 62.5%; // Setting px size to 10px for easier use of rem
+    height: 100%;
 }
 
 body {
     font-family: 'Montserrat', sans-serif;
     line-height: 1.6;
+    height: 100%;
 }
 
-.about {
-    height: 100vh;
-}
-
-.footer {
-    height: 100vh;
+.App {
+    height: 100%;
 }

@@ -1,61 +1,64 @@
 import React from 'react';
 import { Link } from 'react-scroll';
-import MenuToggle from './MenuToggle';
 
-const Navbar = props => {
+const SideDrawer = props => {
+    // Set styling based on side drawer open or closed
+    let drawerClasses = 'side-drawer';
+
+    if (props.show) {
+        drawerClasses = 'side-drawer open';
+    }
+
     return (
-        <header className='navbar'>
-            <nav className='navbar__nav'>
-                <p className="navbar__logo">
-                    rachel<span>DAVIS</span>
-                </p>
-
-                <div className="navbar__spacer" />
-
-                <ul className="navbar__list">
-                    <li className="navbar__item">
+        <nav className={drawerClasses}>
+            <button 
+                className="side-drawer__close"
+                onClick={props.click}
+            >
+                &times;
+            </button>
+            <ul className="side-drawer__list">
+                    <li className="side-drawer__item">
                         <Link
                             to='about'
                             spy={true}
                             smooth={true}
                             duration={500}
-                            className='navbar__link'
+                            className='side-drawer__link'
+                            onClick={props.click}
                         >
                             About
                         </Link>
                     </li>
 
-                    <li className='navbar__item'>
+                    <li className='side-drawer__item'>
                         <Link
                             to='portfolio'
                             spy={true}
                             smooth={true}
                             duration={500}
-                            className='navbar__link'
+                            className='side-drawer__link'
+                            onClick={props.click}
                         >
                             Portfolio
                         </Link>
                     </li>
 
-                    <li className='navbar__item'>
+                    <li className='side-drawer__item'>
                         <Link
                             to='contact'
                             spy={true}
                             smooth={true}
                             duration={500}
-                            className='navbar__link'
+                            className='side-drawer__link'
+                            onClick={props.click}
                         >
                             Contact
                         </Link>
                     </li>
                 </ul>
-
-                <div>
-                    <MenuToggle click={props.sideDrawerHandler} />
-                </div>
-            </nav>
-        </header>
+        </nav>
     );
 };
 
-export default Navbar;
+export default SideDrawer;
