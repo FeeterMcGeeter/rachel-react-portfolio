@@ -1,3 +1,38 @@
 .hero {
-    margin-top: 7rem;
+    margin-top: 6rem;
+    min-height: 70rem;
+    background: linear-gradient(
+        rgba(0, 0, 0, .5),
+        rgba(0, 0, 0, .5)),
+        url('../images/hero-img.jpeg')
+        center center no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: grid;
+    place-items: center;
+
+    &__content {
+        color: $color-light;
+    }
+
+    &__title {
+        font-size: 3rem;
+        margin-bottom: 2rem;
+    }
+
+    &__subtitle {
+        font-size: 1.2rem;
+        filter: brightness(95%);
+    }
+
+    &__button {
+        background-color: $color-primary;
+        color: $color-light;
+        font-family: inherit;
+        font-size: 2rem;
+        padding: 1.25rem 2.5rem;
+        border: none;
+        border-radius: .5rem;
+        cursor: pointer;
+    }
 }
