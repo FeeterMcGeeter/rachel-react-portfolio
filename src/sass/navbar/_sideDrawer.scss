@@ -1,3 +1,4 @@
+// Side drawer container
 .side-drawer {
     height: 100%;
     width: 50%;
@@ -21,6 +22,16 @@
         right: 1rem;
     }
 
+    // Nav links and social media links container
+    &__links-container {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    // Navigation links
     &__list {
         height: 100%;
         list-style-type: none;
@@ -52,12 +63,31 @@
             transition: all .3s ease;
         }
     }
+
+    // Social media links
+    &__social-list {
+        width: 100%;
+        margin-bottom: 1.5rem;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    &__social-item {
+        list-style-type: none;
+        font-size: 2rem;
+    }
+
+    &__social-link {
+        color: $color-light;
+    }
 }
 
+// Side drawer opens
 .open {
     transform: translateX(0);
 }
 
+// Side drawer is removed on screens larger than tablets
 @media (min-width: $bp-tablet) {
     .side-drawer {
         display: none;

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-scroll';
 
-const SideDrawer = props => {
+const SideDrawer = (props) => {
     // Set styling based on side drawer open or closed
     let drawerClasses = 'side-drawer';
 
@@ -11,14 +11,14 @@ const SideDrawer = props => {
 
     return (
         <nav className={drawerClasses}>
-            <button 
-                className="side-drawer__close"
-                onClick={props.click}
-            >
+            <button className='side-drawer__close' onClick={props.click}>
                 &times;
             </button>
-            <ul className="side-drawer__list">
-                    <li className="side-drawer__item">
+
+            <div className='side-drawer__links-container'>
+                {/* Navigation Links */}
+                <ul className='side-drawer__list'>
+                    <li className='side-drawer__item'>
                         <Link
                             to='about'
                             spy={true}
@@ -57,6 +57,40 @@ const SideDrawer = props => {
                         </Link>
                     </li>
                 </ul>
+
+                {/* Social Media Links */}
+                <ul className='side-drawer__social-list'>
+                    <li className='side-drawer__social-item'>
+                        <a
+                            href='https://www.facebook.com/rachel.galloway.524'
+                            className='side-drawer__social-link'
+                            onClick={props.click}
+                        >
+                            <i className='fab fa-facebook-f' />
+                        </a>
+                    </li>
+
+                    <li className='side-drawer__social-item'>
+                        <a
+                            href='https://www.instagram.com/raerae_31/'
+                            className='side-drawer__social-link'
+                            onClick={props.click}
+                        >
+                            <i className='fab fa-instagram' />
+                        </a>
+                    </li>
+
+                    <li className='side-drawer__social-item'>
+                        <a
+                            href='https://www.linkedin.com/in/rachel-davis-34ab4284/'
+                            className='side-drawer__social-link'
+                            onClick={props.click}
+                        >
+                            <i className='fab fa-linkedin-in' />
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </nav>
     );
 };
