@@ -38,7 +38,8 @@
 
         &:hover {
             background: $color-dark;
-            
+            -webkit-box-shadow: 0 .3rem 1.2rem rgba($color-light, .5); 
+            box-shadow: 0 .3rem 1.2rem rgba($color-light, .5);
             letter-spacing: .1rem;
             transition: all .3s ease;
         }

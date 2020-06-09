@@ -9,9 +9,9 @@ $bp-tablet: 48em; // 768px
 $bp-desktop: 75em; // 1200px
 
 // Margin-bottom
-.mb-sm { margin-bottom: 3rem; }
-.mb-md { margin-bottom: 5rem; }
-.mb-lg { margin-bottom: 8rem; }
+.mb-sm { margin-bottom: 2rem; }
+.mb-md { margin-bottom: 4rem; }
+.mb-lg { margin-bottom: 6rem; }
 
 
 // Global Reset
@@ -32,6 +32,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     line-height: 1.6;
     height: 100%;
+    color: $color-dark;
 }
 
 .App {
