@@ -8,6 +8,14 @@ $bp-phone: 26.5em; // 425px
 $bp-tablet: 48em; // 768px
 $bp-desktop: 75em; // 1200px
 
+// Mixins
+@mixin flexColCenter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 // Margin-bottom
 .mb-sm { margin-bottom: 2rem; }
 .mb-md { margin-bottom: 4rem; }
