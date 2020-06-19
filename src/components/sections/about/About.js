@@ -4,14 +4,13 @@ import Awards from './Awards';
 const About = () => {
     return (
         <div className='about mb-lg'>
-            <h1 className='about__title mb-sm'>
-                about
-                <span>me</span>
+            <h1 className='heading-1 mb-sm'>
+                About Me
             </h1>
 
             <div className='about__cards-container'>
                 <div className='about__card'>
-                    <h3 className='about__card-title'>What I Do</h3>
+                    <h3 className='heading-3'>What I Do</h3>
 
                     <p className='about__card-description'>
                         Lorem ipsum dolor sit amet consectetur, adipisicing
@@ -21,7 +20,7 @@ const About = () => {
                 </div>
 
                 <div className='about__card'>
-                    <h3 className='about__card-title'>My Philosophy</h3>
+                    <h3 className='heading-3'>My Philosophy</h3>
 
                     <p className='about__card-description'>
                         Lorem ipsum dolor sit amet consectetur, adipisicing
@@ -31,7 +30,7 @@ const About = () => {
                 </div>
 
                 <div className='about__card'>
-                    <h3 className='about__card-title'>Family</h3>
+                    <h3 className='heading-3'>Family</h3>
 
                     <p className='about__card-description'>
                         Lorem ipsum dolor sit amet consectetur, adipisicing
@@ -41,7 +40,7 @@ const About = () => {
                 </div>
 
                 <div className='about__card'>
-                    <h3 className='about__card-title'>
+                    <h3 className='heading-3'>
                         Education & Certifications
                     </h3>
 
@@ -53,7 +52,7 @@ const About = () => {
                 </div>
 
                 <div className='about__card'>
-                    <h3 className='about__card-title'>Myers Briggs Test</h3>
+                    <h3 className='heading-3'>Myers Briggs Test</h3>
 
                     <div className='about__card-description flex-btn'>
                         <p>

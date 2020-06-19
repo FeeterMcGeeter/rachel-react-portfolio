@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Navbar from './navbar/Navbar';
 import SideDrawer from './navbar/SideDrawer';
 import MenuBackdrop from './navbar/MenuBackdrop';
-import Hero from './sections/Hero';
+import Hero from './sections/hero/Hero';
 import About from './sections/about/About';
 import Portfolio from './sections/portfolio/Portfolio';
 import Contact from './sections/contact/Contact';

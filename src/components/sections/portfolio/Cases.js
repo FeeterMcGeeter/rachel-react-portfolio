@@ -3,7 +3,7 @@ import React from 'react';
 const Cases = () => {
     return (
         <div className='cases'>
-            Cases
+            <h1 className="heading-2">cases</h1>
         </div>
     );
 };

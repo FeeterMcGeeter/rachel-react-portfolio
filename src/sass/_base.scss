@@ -46,3 +46,20 @@ body {
 .App {
     height: 100%;
 }
+
+// Typography
+.heading-1 {
+    text-align: center;
+    font-size: 2.8rem;
+}
+
+.heading-2 {
+    text-align: center;
+    font-size: 2.4rem;
+}
+
+.heading-3 {
+    margin-bottom: .5rem;
+    font-size: 1.8rem;
+    color: $color-primary;
+}

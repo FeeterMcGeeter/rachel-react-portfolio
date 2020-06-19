@@ -1,3 +1,58 @@
 .contact {
-    
+
+
+    &__list {
+        display: flex;
+    }
+
+    &__item {
+        list-style-type: none;
+    }
+
+    &__link {
+        color: $color-primary;
+
+        span {
+
+            &:nth-child(odd) {
+
+            }
+
+            &:nth-child(1) {
+
+            }
+
+            &:nth-child(3) {
+
+            }
+
+            &:nth-child(even) {
+
+            }
+
+            &:nth-child(2) {
+
+            }
+
+            &:nth-child(4) {
+
+            }
+        }
+
+        &:hover span:nth-child(1) {
+
+        }
+
+        &:hover span:nth-child(3) {
+            
+        }
+
+        &:hover span:nth-child(2) {
+            
+        }
+
+        &:hover span:nth-child(4) {
+            
+        }
+    }
 }

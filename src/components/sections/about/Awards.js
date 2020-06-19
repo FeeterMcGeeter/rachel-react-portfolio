@@ -3,7 +3,7 @@ import React from 'react';
 const Awards = () => {
     return (
         <div className='awards'>
-            <h2 className="awards__title">awards</h2>
+            <h2 className="heading-2">awards & recognition</h2>
 
             <ul className="awards__list">
                 <li className="awards__item">Award 1</li>
