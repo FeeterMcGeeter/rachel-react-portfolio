@@ -63,6 +63,8 @@ const SideDrawer = (props) => {
                     <li className='side-drawer__social-item'>
                         <a
                             href='https://www.facebook.com/rachel.galloway.524'
+                            target='_blank'
+                            rel='noopener noreferrer'
                             className='side-drawer__social-link'
                             onClick={props.click}
                         >
@@ -73,6 +75,8 @@ const SideDrawer = (props) => {
                     <li className='side-drawer__social-item'>
                         <a
                             href='https://www.instagram.com/raerae_31/'
+                            target='_blank'
+                            rel='noopener noreferrer'
                             className='side-drawer__social-link'
                             onClick={props.click}
                         >
@@ -83,6 +87,8 @@ const SideDrawer = (props) => {
                     <li className='side-drawer__social-item'>
                         <a
                             href='https://www.linkedin.com/in/rachel-davis-34ab4284/'
+                            target='_blank'
+                            rel='noopener noreferrer'
                             className='side-drawer__social-link'
                             onClick={props.click}
                         >

@@ -3,11 +3,15 @@ import React from 'react';
 const Contact = () => {
     return (
         <div className='contact'>
-            <h1 className='heading-1'>Contact</h1>
+            <h1 className='heading-1 mb-md'>Contact</h1>
 
-            <ul className='contact__list mb-md'>
+            <ul className='contact__list mb-lg'>
                 <li className='contact__item'>
-                    <a href='https://www.facebook.com/rachel.galloway.524'>
+                    <a className='contact__link'
+                       href='https://www.facebook.com/rachel.galloway.524'
+                       target='_blank'
+                       rel='noopener noreferrer'
+                    >
                         <span></span>
                         <span></span>
                         <span></span>
@@ -16,7 +20,11 @@ const Contact = () => {
                     </a>
                 </li>
                 <li className='contact__item'>
-                    <a href='https://www.facebook.com/rachel.galloway.524'>
+                    <a className='contact__link'
+                       href='https://www.instagram.com/raerae_31/'
+                       target='_blank'
+                       rel='noopener noreferrer'
+                    >
                         <span></span>
                         <span></span>
                         <span></span>
@@ -25,7 +33,11 @@ const Contact = () => {
                     </a>
                 </li>
                 <li className='contact__item'>
-                    <a href='https://www.facebook.com/rachel.galloway.524'>
+                    <a className='contact__link' 
+                       href='https://www.linkedin.com/in/rachel-davis-34ab4284/'
+                       target='_blank'
+                       rel='noopener noreferrer'
+                    >
                         <span></span>
                         <span></span>
                         <span></span>
@@ -34,7 +46,9 @@ const Contact = () => {
                     </a>
                 </li>
                 <li className='contact__item'>
-                    <a href='https://www.facebook.com/rachel.galloway.524'>
+                    <a className='contact__link' 
+                       href='mailto:davismrach@gmail.com'
+                    >
                         <span></span>
                         <span></span>
                         <span></span>
