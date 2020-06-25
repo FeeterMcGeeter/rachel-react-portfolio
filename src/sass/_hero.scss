@@ -1,9 +1,9 @@
 .hero {
     margin-top: 6rem;
-    min-height: 60vh;
+    min-height: 80vh;
     background: linear-gradient(
-        rgba(0, 0, 0, .5),
-        rgba(0, 0, 0, .5)),
+        rgba(0, 0, 0, .6),
+        rgba(0, 0, 0, .6)),
         url('../images/hero-img.jpeg')
         center center no-repeat;
     background-size: cover;
@@ -37,9 +37,10 @@
         display: inline-block;
 
         &:hover {
-            background: $color-dark;
-            -webkit-box-shadow: 0 .3rem 1.2rem rgba($color-light, .5); 
-            box-shadow: 0 .3rem 1.2rem rgba($color-light, .5);
+            background: #DFB718;
+            color: $color-dark;
+            -webkit-box-shadow: 0 .3rem 1.2rem rgba($color-light, .3); 
+            box-shadow: 0 .3rem 1.2rem rgba($color-light, .3);
             letter-spacing: .1rem;
             transition: all .3s ease;
         }

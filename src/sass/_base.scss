@@ -47,6 +47,12 @@ body {
     height: 100%;
 }
 
+// Container for About, Portfolio, & Contact sections
+.container {
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
 // Typography
 .heading-1 {
     text-align: center;
