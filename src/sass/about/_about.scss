@@ -8,25 +8,31 @@
     &__cards-container {
         margin: 0 2rem;
         margin-bottom: 3rem;
+
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(27.5rem, 1fr));
+        grid-gap: 2rem;
+
+        @media screen and (min-width: 75em) {
+            grid-template-columns: repeat(auto-fit, minmax(50rem, 1fr));
+        }
     }
 
     &__card {
-        
         
         &:not(:last-child) {
             margin-bottom: 1.5rem;
         }
     }
 
-    &__card-title {
-        margin-bottom: .5rem;
-        font-size: 1.8rem;
-        color: $color-primary;
+    .card-title {
+        margin-left: 1rem;
     }
 
     &__card-description {
         font-size: 1.2rem;
-        padding: .5rem;
+        min-height: 15rem;
+        padding: 1rem;
         border-radius: .25rem;
         box-shadow: 0 .3rem 1rem $color-dark;
     }
@@ -39,6 +45,11 @@
         p {
             margin-bottom: 1rem;
         }
+    }
+
+    // Pushing the btn down to the bottom of the div
+    .flex-push {
+        flex: 1;
     }
 
     &__card-button {

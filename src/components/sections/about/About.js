@@ -1,5 +1,4 @@
 import React from 'react';
-import Awards from './Awards';
 
 const About = () => {
     return (
@@ -10,7 +9,7 @@ const About = () => {
 
             <div className='about__cards-container'>
                 <div className='about__card'>
-                    <h3 className='heading-3'>What I Do</h3>
+                    <h3 className='heading-3 card-title'>What I Do</h3>
 
                     <p className='about__card-description'>
                         Lorem ipsum dolor sit amet consectetur, adipisicing
@@ -20,7 +19,7 @@ const About = () => {
                 </div>
 
                 <div className='about__card'>
-                    <h3 className='heading-3'>My Philosophy</h3>
+                    <h3 className='heading-3 card-title'>My Philosophy</h3>
 
                     <p className='about__card-description'>
                         Lorem ipsum dolor sit amet consectetur, adipisicing
@@ -30,7 +29,7 @@ const About = () => {
                 </div>
 
                 <div className='about__card'>
-                    <h3 className='heading-3'>Family</h3>
+                    <h3 className='heading-3 card-title'>Family</h3>
 
                     <p className='about__card-description'>
                         Lorem ipsum dolor sit amet consectetur, adipisicing
@@ -40,7 +39,7 @@ const About = () => {
                 </div>
 
                 <div className='about__card'>
-                    <h3 className='heading-3'>
+                    <h3 className='heading-3 card-title'>
                         Education & Certifications
                     </h3>
 
@@ -52,12 +51,14 @@ const About = () => {
                 </div>
 
                 <div className='about__card'>
-                    <h3 className='heading-3'>Myers Briggs Test</h3>
+                    <h3 className='heading-3 card-title'>Myers Briggs Test</h3>
 
                     <div className='about__card-description flex-btn'>
                         <p>
                             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum mollitia quam ab consectetur aperiam perferendis pariatur et fugit repellat adipisci.
                         </p>
+
+                        <div className="flex-push"></div>
 
                         <a
                             href='https://profiles.mbtionline.com/eedba95eb7.html'
@@ -69,9 +70,19 @@ const About = () => {
                         </a>
                     </div>
                 </div>
-            </div>
 
-            <Awards />
+                <div className='about__card'>
+                    <h3 className='heading-3 card-title'>
+                        Awards & Recognition
+                    </h3>
+
+                    <p className='about__card-description'>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing
+                        elit. Debitis suscipit molestias accusamus harum vero,
+                        ipsum facilis pariatur excepturi architecto dicta!
+                    </p>
+                </div>
+            </div>
         </div>
     );
 };
