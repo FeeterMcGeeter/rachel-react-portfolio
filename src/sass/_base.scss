@@ -2,6 +2,7 @@
 $color-primary: #B10F2E;
 $color-light: #fff;
 $color-dark: #262626;
+$color-hover: #DFB718;
 
 // Breakpoint Variables
 $bp-phone: 26.5em; // 425px
@@ -16,10 +17,14 @@ $bp-desktop: 75em; // 1200px
     align-items: center;
 }
 
-// Margin-bottom
+// Margins
+// Bottom
 .mb-sm { margin-bottom: 2rem; }
 .mb-md { margin-bottom: 4rem; }
 .mb-lg { margin-bottom: 6rem; }
+
+// Left
+.ml { margin-left: 2rem;}
 
 
 // Global Reset
@@ -54,18 +59,26 @@ body {
 }
 
 // Typography
+// Section titles
 .heading-1 {
+    text-transform: uppercase;
     text-align: center;
-    font-size: 2.8rem;
+    font-size: 3.2rem;
+
+    @media screen and (max-width: 48em) {
+        font-size: 2.8rem;
+    }
 }
 
+// Sub section titles
 .heading-2 {
     text-align: center;
     font-size: 2.4rem;
 }
 
+// Card & Project titles
 .heading-3 {
     margin-bottom: .5rem;
-    font-size: 1.8rem;
+    font-size: 2rem;
     color: $color-primary;
 }

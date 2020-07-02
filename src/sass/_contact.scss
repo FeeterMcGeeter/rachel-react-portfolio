@@ -91,4 +91,56 @@
             transition: transform .5s;
         }
     }
+
+    // Blockquote
+    // Blockquote
+    &__quote {
+        max-width: 40%;
+        position: relative;
+        display: inline-block;
+        background-color: $color-primary;
+        color: $color-light;
+        font-size: 1.6rem;
+        border-radius: .25rem;
+        padding: 4rem 3rem 3rem 6rem;
+        text-align: left;
+
+        &::before {
+            display: block;
+            position: absolute;
+            top: -1rem;
+            left: 2rem;
+            content: '\"';
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 10rem;
+            color: rgba($color-light, .7);
+        }
+
+        span {
+            position: relative;
+            display: block;
+            text-align: right;
+            margin-top: .5rem;
+            color: rgba($color-light, .7);
+
+            &::before {
+                display: block;
+                content: '';
+                position: absolute;
+                top: 50%;
+                left: 0;
+                width: 75%;
+                height: .1rem;
+                background: rgba($color-light, .7);
+                z-index: 1;
+            }
+        }
+
+        i {
+            position: relative;
+            color: rgba($color-light, .7);
+            padding-left: .5rem;
+            z-index: 5;
+        }
+    }
 }
