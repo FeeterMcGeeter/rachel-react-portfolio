@@ -1,4 +1,5 @@
 import React from 'react';
+import ReactPlayer from 'react-player';
 
 const Contact = () => {
     return (
@@ -9,17 +10,15 @@ const Contact = () => {
                     Wanting to win is the point. Not giving up is the point.
                     Never letting up is the point. Never being satisfied with
                     what you've done is the point.
-                    <span><i>Pat Summit</i></span>
+                    <span><i>- Pat Summit</i></span>
                 </blockquote>
 
-                <div className='contact__ted-link'>
-                    <a
-                        href='https://www.ted.com/talks/valorie_kondos_field_why_winning_doesn_t_always_equal_success'
-                        target='_blank'
-                        rel='noopener noreferrer'
-                    >
-                        Link to Ted Talk Video
-                    </a>
+                <div className='contact__player-wrapper'>
+                    <ReactPlayer
+                        className='contact__video'
+                        url='https://www.youtube.com/watch?v=JJyeKiT8g4g'
+                        controls
+                    />
                 </div>
             </div>
 

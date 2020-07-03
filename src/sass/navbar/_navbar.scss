@@ -6,6 +6,7 @@
     border-bottom: .1rem solid $color-dark;
     height: 6rem;
     min-width: 100%;
+    z-index: 1000;
 
     &__nav {
         height: 100%;
