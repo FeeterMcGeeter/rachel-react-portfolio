@@ -29,7 +29,9 @@
         min-height: 15rem;
         padding: 1rem;
         border-radius: .25rem;
-        box-shadow: 0 .3rem 1rem $color-dark;
+        // box-shadow: 0 .3rem 1rem $color-dark;
+        box-shadow: .3rem .3rem 1.5rem #E6E6E6,
+                    -.3rem -.3rem 1.5rem $color-light;
     }
 
     // Lists
@@ -52,11 +54,7 @@
         color: $color-primary;
         font-size: 1.8rem;
         font-weight: 700;
+        border-bottom: .1rem solid $color-primary;
         text-decoration: none;
-
-        &:hover {
-            border-bottom: .2rem solid $color-primary;
-            transition: all .2s ease;
-        }
     }
 }

@@ -6,11 +6,8 @@
 
 @import 'hero';
 
-@import './about/about';
-
-@import './portfolio/cases';
-@import './portfolio/projects';
-
-@import 'contact';
+@import './sections/about';
+@import './sections/portfolio';
+@import './sections/contact';
 
 @import 'footer';

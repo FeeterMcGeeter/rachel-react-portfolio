@@ -1,0 +1,64 @@
+.portfolio {
+    margin-left: 2rem;
+    margin-right: 2rem;
+
+    &__projects {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        &-1 {
+            width: 48%;
+            min-height: 15rem;
+            background: linear-gradient(
+                rgba(0, 0, 0, .6),
+                rgba(0, 0, 0, .6)),
+                url('../../images/new-hire.jpeg')
+                center center no-repeat;
+            background-size: cover;
+            border-radius: .25rem;
+        }
+    
+        &-2 {
+            width: 48%;
+            min-height: 15rem;
+            background: linear-gradient(
+                rgba(0, 0, 0, .6),
+                rgba(0, 0, 0, .6)),
+                url('../../images/freight.jpeg')
+                center center no-repeat;
+            background-size: cover;
+            border-radius: .25rem;
+        }
+    }
+
+    .project-title {
+        color: $color-light;
+        font-size: 1.8rem;
+        margin-bottom: 1rem;
+    }
+
+    .project-subtitle {
+        color: rgba($color-light, .9);
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+    }
+
+    .project-link {
+        text-decoration: none;
+        color: $color-light;
+        font-size: 1.2rem;
+        padding: .5rem 1rem;
+        background-color: $color-primary;
+        border-radius: .5rem;
+
+        &:hover {
+            background: $color-hover;
+            color: $color-dark;
+            -webkit-box-shadow: 0 .3rem 1.2rem rgba($color-light, .3); 
+            box-shadow: 0 .3rem 1.2rem rgba($color-light, .3);
+            letter-spacing: .1rem;
+            transition: all .1s ease;
+        }
+    }
+}

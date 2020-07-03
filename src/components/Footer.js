@@ -2,26 +2,22 @@ import React from 'react';
 import { animateScroll as scroll } from 'react-scroll';
 
 const Footer = () => {
-
     const scrollToTop = () => {
         scroll.scrollToTop();
     };
 
     return (
         <div className='footer'>
-            <div
-                className='footer__btn-toTop'
-                onClick={scrollToTop}
-            >
-                <i className="fas fa-chevron-up" />
+            <div className='footer__btn-toTop' onClick={scrollToTop}>
+                <i className='fas fa-chevron-up' />
             </div>
 
-            <div className="footer__content">
-                <p className="footer__logo">
+            <div className='footer__content'>
+                <p className='footer__logo'>
                     rachel<span>DAVIS</span>
                 </p>
 
-                <p className="footer__powered-by">
+                <p className='footer__powered-by'>
                     Powered by
                     <span>
                         <i className='fab fa-react' />
@@ -29,7 +25,7 @@ const Footer = () => {
                     React
                 </p>
 
-                <p className="footer__copyright">
+                <p className='footer__copyright'>
                     created by
                     <span>Jeffrey Davis</span>
                     &copy; 2020

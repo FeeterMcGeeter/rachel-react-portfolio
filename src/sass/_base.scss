@@ -17,6 +17,11 @@ $bp-desktop: 75em; // 1200px
     align-items: center;
 }
 
+@mixin gridContentCenter {
+    display: grid;
+    place-items: center;
+}
+
 // Margins
 // Bottom
 .mb-sm { margin-bottom: 2rem; }
@@ -81,4 +86,9 @@ body {
     margin-bottom: .5rem;
     font-size: 2rem;
     color: $color-primary;
+}
+
+// Centering content inside a div
+.center {
+    @include flexColCenter;
 }

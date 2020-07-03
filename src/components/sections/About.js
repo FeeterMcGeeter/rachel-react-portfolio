@@ -91,7 +91,7 @@ const About = () => {
                             </span>
                             in wanting to get a better understanding of my
                             decision making, how others might view me, and how I
-                            can collaborate with peer's differences.
+                            can collaborate with my peer's differences.
                         </p>
                     </div>
                 </div>
