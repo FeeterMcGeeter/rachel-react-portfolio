@@ -4,6 +4,9 @@ import ReactPlayer from 'react-player';
 const Contact = () => {
     return (
         <div className='contact'>
+            <h1 className='heading-2 mb-md'>
+                Inspiration
+            </h1>
             <div className='contact__inspiration mb-lg'>
                 <blockquote className='contact__quote'>
                     Winning is fun... Sure. But winning is not the point.
