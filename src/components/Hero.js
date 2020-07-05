@@ -7,7 +7,7 @@ const Hero = () => {
             <div className='hero__content'>
                 <h1 className='hero__title mb-sm'>Senior Strategic Sales & Support</h1>
                 <p className='hero__subtitle mb-md'>
-                    I am adaptable to change quickly, collaborate with peers, and demonstrate leadership to stakeholders within many organizations.
+                    Hi, I'm Rachel.  I'm a Senior Specialist with extensive knowledge in E-Commerce consulting and Freight shipping.
                 </p>
                 <Link 
                     to='portfolio'

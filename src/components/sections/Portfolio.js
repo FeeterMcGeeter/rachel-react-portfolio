@@ -8,12 +8,11 @@ const Portfolio = () => {
             <div className='portfolio__projects-container'>
                 <div className='portfolio__projects p1 center'>
                     <h2 className='project-title'>
-                        New Hire / DSS Collaboration
+                        New Hire DSS Collaboration
                     </h2>
 
                     <p className='project-subtitle'>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Veritatis, eius?
+                        Increase number of New Hire cases with early education classes
                     </p>
 
                     <a
@@ -22,7 +21,7 @@ const Portfolio = () => {
                         target='_blank'
                         rel='noopener noreferrer'
                     >
-                        Link to Power Point Presentation
+                        Link to Presentation
                     </a>
                 </div>
 
@@ -32,8 +31,7 @@ const Portfolio = () => {
                     </h2>
 
                     <p className='project-subtitle'>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Veritatis, eius?
+                        Yearly planned calendar for all BSIO EDU content
                     </p>
 
                     <a
@@ -42,7 +40,7 @@ const Portfolio = () => {
                         target='_blank'
                         rel='noopener noreferrer'
                     >
-                        Link to Power Point Presentation
+                        Link to Presentation
                     </a>
                 </div>
 
@@ -52,8 +50,7 @@ const Portfolio = () => {
                     </h2>
 
                     <p className='project-subtitle'>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Veritatis, eius?
+                        6 month plan to educate freight SME's on freight strategic pricing
                     </p>
 
                     <a
@@ -62,27 +59,102 @@ const Portfolio = () => {
                         target='_blank'
                         rel='noopener noreferrer'
                     >
-                        Link to Power Point Presentation
+                        Link to Presentation
                     </a>
                 </div>
 
                 <div className='portfolio__projects p4 center'>
                     <h2 className='project-title'>
-                        Strategic BSIO Pricing
+                        DSS Education Core
                     </h2>
 
                     <p className='project-subtitle'>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Veritatis, eius?
+                        Creating a CORE library for BSIO - basic level training for any level of sales
                     </p>
 
                     <a
                         className='project-link'
-                        href='https://drive.google.com/file/d/1g4AVn5r6ARwgFeBGBTfKcdd-c53DsDto/view?usp=sharing'
+                        href='https://drive.google.com/file/d/1Ga_kX5tgbed6jlqjVif8PvaBbSvRT7T4/view?usp=sharing'
                         target='_blank'
                         rel='noopener noreferrer'
                     >
-                        Link to Power Point Presentation
+                        Link to Presentation
+                    </a>
+                </div>
+
+                <div className='portfolio__projects p5 center'>
+                    <h2 className='project-title'>
+                        Think Tank
+                    </h2>
+
+                    <p className='project-subtitle'>
+                        Shark Tank presentation on untapped market through social media
+                    </p>
+
+                    <a
+                        className='project-link'
+                        href='https://drive.google.com/file/d/1Axu-24ZMUPmObT8_oabxkeG5yke3acPk/view?usp=sharing'
+                        target='_blank'
+                        rel='noopener noreferrer'
+                    >
+                        Link to Presentation
+                    </a>
+                </div>
+
+                <div className='portfolio__projects p6 center'>
+                    <h2 className='project-title'>
+                        Education Incentives
+                    </h2>
+
+                    <p className='project-subtitle'>
+                        Knowledge Nibble & huddle content creation
+                    </p>
+
+                    <a
+                        className='project-link'
+                        href='https://drive.google.com/file/d/1lHA96E1H3yu-8qqtPMeTn3L-lw-lYLoz/view?usp=sharing'
+                        target='_blank'
+                        rel='noopener noreferrer'
+                    >
+                        Link to Presentation
+                    </a>
+                </div>
+
+                <div className='portfolio__projects p7 center'>
+                    <h2 className='project-title'>
+                        Success Stories
+                    </h2>
+
+                    <p className='project-subtitle'>
+                        Customer consultation success stories
+                    </p>
+
+                    <a
+                        className='project-link'
+                        href='https://drive.google.com/file/d/153X8y6p8JmX8Qqzu-UGzU4gPtqIcVIeJ/view?usp=sharing'
+                        target='_blank'
+                        rel='noopener noreferrer'
+                    >
+                        Link to Presentation
+                    </a>
+                </div>
+
+                <div className='portfolio__projects p8 center'>
+                    <h2 className='project-title'>
+                        Senior Sales Specialist
+                    </h2>
+
+                    <p className='project-subtitle'>
+                        Review over Senior Sales Specialist presentation
+                    </p>
+
+                    <a
+                        className='project-link'
+                        href='https://drive.google.com/file/d/1ZM-ra3E-UtTbHatgRzr5zirJJkdbpXD5/view?usp=sharing'
+                        target='_blank'
+                        rel='noopener noreferrer'
+                    >
+                        Link to Presentation
                     </a>
                 </div>
             </div>

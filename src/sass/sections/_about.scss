@@ -1,24 +1,5 @@
 .about {
 
-    &__profile {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-gap: 2rem;
-    }
-
-    &__bio {
-
-    }
-
-    &__image {
-        width: 20rem;
-        height: 20rem;
-        background: url('../../images/profile-img.png') center center no-repeat;
-        background-size: cover;
-        border-radius: 50%;
-        box-shadow: .5rem .5rem 1.5rem $color-dark;
-    }
-
     &__cards-container {
         margin: 0 2rem;
         margin-bottom: 3rem;
@@ -32,25 +13,42 @@
         }
     }
 
-    // &__card {
-        
-    //     &:not(:last-child) {
-    //         margin-bottom: 1.5rem;
-    //     }
-    // }
-
     .card-title {
         margin-left: 1rem;
     }
 
     &__card-description {
         font-size: 1.4rem;
-        min-height: 15rem;
+        min-height: 22rem;
         padding: 1rem;
         border-radius: .25rem;
         // box-shadow: 0 .3rem 1rem $color-dark;
         box-shadow: .3rem .3rem 1.5rem #E6E6E6,
                     -.3rem -.3rem 1.5rem $color-light;
+    }
+
+    // Family card
+    .family {
+        height: 22rem;
+        display: flex;
+
+        @media screen and (max-width: 75em) {
+            flex-direction: column;
+        }
+
+        // &-image {
+        //     flex: 2;
+        //     width: 100%;
+        //     height: 100%;
+        //     margin-right: 1rem;
+        //     background: url('../../images/family.jpeg')
+        //                 center center no-repeat;
+        //     background-size: cover;
+        // }
+
+        // &-info {
+        //     flex: 1;
+        // }
     }
 
     // Lists

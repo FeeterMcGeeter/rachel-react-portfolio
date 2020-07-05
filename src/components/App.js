@@ -5,6 +5,8 @@ import MenuBackdrop from './navbar/MenuBackdrop';
 import Hero from './Hero';
 import About from './sections/About';
 import Portfolio from './sections/Portfolio';
+import Recommendations from './sections/Recommendations';
+import Inspiration from './sections/Inspiration';
 import Contact from './sections/Contact';
 import Footer from './Footer';
 import '../sass/main.scss';
@@ -42,6 +44,8 @@ class App extends Component {
                 <div className='container'>
                     <About />
                     <Portfolio />
+                    <Recommendations />
+                    <Inspiration />
                     <Contact />
                 </div>
                 <Footer />

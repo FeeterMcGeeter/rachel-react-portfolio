@@ -5,25 +5,14 @@ const About = () => {
         <div className='about mb-lg'>
             <h1 className='heading-1 mb-md'>About Me</h1>
 
-            <div className="about__profile">
-                <div className="about__bio">
-                    <p>
-                        Hi!  I'm Rachel Davis and I'm a Senior Strategic Sales Specialist at FedEx.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto minima perspiciatis nulla deleniti nemo doloribus ipsam pariatur cum sapiente facilis?
-                    </p>
-                </div>
-
-                <div className='about__image'></div>
-            </div>
-
             <div className='about__cards-container'>
                 <div className='about__card'>
                     <h3 className='heading-3 card-title'>What I Do</h3>
 
                     <p className='about__card-description'>
                         As a Sales Specialist, I consult with sales executives
-                        and customers on eliminating obstacles in day to day
-                        functions and grow their online business. I lead the
-                        education initiative for the 4 BSI regions.
+                        and customers on how to eliminate obstacles in day to day
+                        functions and grow their online business. Through consultation, I can advise and watch the customers supply chain reach their full potential.  I collaborate with my peers and stakeholders within FedEx.  As the lead for the EDU platform and my passion for structure, planning, and organization, I am able to coordinate education initiatives for four BSIO regions. 
                     </p>
                 </div>
 
@@ -53,11 +42,16 @@ const About = () => {
                 <div className='about__card'>
                     <h3 className='heading-3 card-title'>Family</h3>
 
-                    <p className='about__card-description'>
-                        I live in Grand Prairie, Texas with my husband Jeffrey.
-                        We have been married for two and a half years and have
-                        four children.. Kaylie, Serenity, Cooper, and Sydney.
-                    </p>
+                    <div className='about__card-description family'>
+                        <div className='family-image'></div>
+
+                        <p className='family-info'>
+                            I live in Grand Prairie, Texas with my husband Jeffrey.
+                            We have been married for two and a half years and have
+                            four children.. Kaylie, Serenity, Cooper, and Sydney.
+                        </p>
+                    </div>
+            
                 </div>
 
                 <div className='about__card'>

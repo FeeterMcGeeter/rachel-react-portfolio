@@ -1,30 +1,15 @@
 import React from 'react';
-import ReactPlayer from 'react-player';
 
 const Contact = () => {
     return (
         <div className='contact'>
             <h1 className='heading-2 mb-md'>
-                Inspiration
+                Contact Me
             </h1>
-            <div className='contact__inspiration mb-lg'>
-                <blockquote className='contact__quote'>
-                    Winning is fun... Sure. But winning is not the point.
-                    Wanting to win is the point. Not giving up is the point.
-                    Never letting up is the point. Never being satisfied with
-                    what you've done is the point.
-                    <span><i>- Pat Summit</i></span>
-                </blockquote>
 
-                <div className='contact__player-wrapper'>
-                    <ReactPlayer
-                        className='contact__video'
-                        url='https://www.youtube.com/watch?v=JJyeKiT8g4g'
-                        controls
-                    />
-                </div>
-            </div>
+            <div className='contact__image'></div>
 
+            {/* Social Media & Email */}
             <ul className='contact__list mb-lg'>
                 <li className='contact__item'>
                     <a

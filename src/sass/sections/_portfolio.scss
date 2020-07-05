@@ -4,7 +4,7 @@
 
     &__projects-container {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(27.5rem, 1fr));
         grid-gap: 2rem;
     }
 
@@ -13,6 +13,7 @@
         border-radius: .25rem;
     }
 
+    // Project 1
     .p1 {
         background: linear-gradient(
             rgba(0, 0, 0, .6),
@@ -22,6 +23,7 @@
             background-size: cover;
     }
 
+    // Project 2
     .p2 {           
         background: linear-gradient(
             rgba(0, 0, 0, .6),
@@ -31,6 +33,7 @@
             background-size: cover;
     }
 
+    // Project 3
     .p3 {          
         background: linear-gradient(
             rgba(0, 0, 0, .6),
@@ -40,11 +43,52 @@
             background-size: cover;
     }
 
+    // Project 4
     .p4 {          
         background: linear-gradient(
             rgba(0, 0, 0, .6),
             rgba(0, 0, 0, .6)),
-            url('../../images/pricing.jpeg')
+            url('../../images/education.jpeg')
+            center center no-repeat;
+            background-size: cover;
+    }
+
+    // Project 5
+    .p5 {          
+        background: linear-gradient(
+            rgba(0, 0, 0, .6),
+            rgba(0, 0, 0, .6)),
+            url('../../images/shark.jpeg')
+            center center no-repeat;
+            background-size: cover;
+    }
+
+    // Project 6
+    .p6 {          
+        background: linear-gradient(
+            rgba(0, 0, 0, .6),
+            rgba(0, 0, 0, .6)),
+            url('../../images/incentive.jpeg')
+            center center no-repeat;
+            background-size: cover;
+    }
+
+    // Project 7
+    .p7 {          
+        background: linear-gradient(
+            rgba(0, 0, 0, .6),
+            rgba(0, 0, 0, .6)),
+            url('../../images/success.jpeg')
+            center center no-repeat;
+            background-size: cover;
+    }
+
+    // Project 8
+    .p8 {          
+        background: linear-gradient(
+            rgba(0, 0, 0, .6),
+            rgba(0, 0, 0, .6)),
+            url('../../images/specialist.jpeg')
             center center no-repeat;
             background-size: cover;
     }
@@ -58,6 +102,7 @@
     .project-subtitle {
         color: rgba($color-light, .9);
         font-size: 1.2rem;
+        padding: 0 .5rem;
         margin-bottom: 1rem;
         text-align: center;
     }
