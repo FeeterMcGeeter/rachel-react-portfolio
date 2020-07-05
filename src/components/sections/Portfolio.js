@@ -18,11 +18,11 @@ const Portfolio = () => {
 
                     <a
                         className='project-link'
-                        href='!#'
+                        href='https://drive.google.com/file/d/1FwEdQ-5YWdS8Ja8VXVHUZucqErP6ewA_/view?usp=sharing'
                         target='_blank'
                         rel='noopener noreferrer'
                     >
-                        Link to Power Point
+                        Link to Power Point Presentation
                     </a>
                 </div>
                 <div className='portfolio__projects-2 center'>
@@ -37,11 +37,31 @@ const Portfolio = () => {
 
                     <a
                         className='project-link'
-                        href='!#'
+                        href='https://drive.google.com/file/d/1wyAD0oqHCcsurow8XtPx30k-bDxROLfY/view?usp=sharing'
                         target='_blank'
                         rel='noopener noreferrer'
                     >
-                        Link to Power Point
+                        Link to Power Point Presentation
+                    </a>
+                </div>
+
+                <div className='portfolio__projects-3 center'>
+                    <h2 className='project-title'>
+                        Strategic BSIO Pricing
+                    </h2>
+
+                    <p className='project-subtitle'>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Veritatis, eius?
+                    </p>
+
+                    <a
+                        className='project-link'
+                        href='https://drive.google.com/file/d/1g4AVn5r6ARwgFeBGBTfKcdd-c53DsDto/view?usp=sharing'
+                        target='_blank'
+                        rel='noopener noreferrer'
+                    >
+                        Link to Power Point Presentation
                     </a>
                 </div>
             </div>
