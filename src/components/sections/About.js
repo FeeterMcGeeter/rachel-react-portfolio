@@ -5,6 +5,16 @@ const About = () => {
         <div className='about mb-lg'>
             <h1 className='heading-1 mb-md'>About Me</h1>
 
+            <div className="about__profile">
+                <div className="about__bio">
+                    <p>
+                        Hi!  I'm Rachel Davis and I'm a Senior Strategic Sales Specialist at FedEx.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto minima perspiciatis nulla deleniti nemo doloribus ipsam pariatur cum sapiente facilis?
+                    </p>
+                </div>
+
+                <div className='about__image'></div>
+            </div>
+
             <div className='about__cards-container'>
                 <div className='about__card'>
                     <h3 className='heading-3 card-title'>What I Do</h3>

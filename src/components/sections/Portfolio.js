@@ -5,8 +5,8 @@ const Portfolio = () => {
         <div className='portfolio mb-lg'>
             <h1 className='heading-1 mb-md'>Portfolio</h1>
 
-            <div className='portfolio__projects'>
-                <div className='portfolio__projects-1 center'>
+            <div className='portfolio__projects-container'>
+                <div className='portfolio__projects p1 center'>
                     <h2 className='project-title'>
                         New Hire / DSS Collaboration
                     </h2>
@@ -25,7 +25,8 @@ const Portfolio = () => {
                         Link to Power Point Presentation
                     </a>
                 </div>
-                <div className='portfolio__projects-2 center'>
+
+                <div className='portfolio__projects p2 center'>
                     <h2 className='project-title'>
                         DSS EDU Roadmap
                     </h2>
@@ -45,7 +46,27 @@ const Portfolio = () => {
                     </a>
                 </div>
 
-                <div className='portfolio__projects-3 center'>
+                <div className='portfolio__projects p3 center'>
+                    <h2 className='project-title'>
+                        Strategic BSIO Pricing
+                    </h2>
+
+                    <p className='project-subtitle'>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Veritatis, eius?
+                    </p>
+
+                    <a
+                        className='project-link'
+                        href='https://drive.google.com/file/d/1g4AVn5r6ARwgFeBGBTfKcdd-c53DsDto/view?usp=sharing'
+                        target='_blank'
+                        rel='noopener noreferrer'
+                    >
+                        Link to Power Point Presentation
+                    </a>
+                </div>
+
+                <div className='portfolio__projects p4 center'>
                     <h2 className='project-title'>
                         Strategic BSIO Pricing
                     </h2>

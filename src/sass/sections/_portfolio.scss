@@ -2,46 +2,51 @@
     margin-left: 2rem;
     margin-right: 2rem;
 
-    &__projects {
+    &__projects-container {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
         grid-gap: 2rem;
+    }
 
-        &-1 {
-            
-            min-height: 25rem;
-            background: linear-gradient(
-                rgba(0, 0, 0, .6),
-                rgba(0, 0, 0, .6)),
-                url('../../images/new-hire.jpeg')
-                center center no-repeat;
-            background-size: cover;
-            border-radius: .25rem;
-        }
-    
-        &-2 {
-            
-            min-height: 25rem;
-            background: linear-gradient(
-                rgba(0, 0, 0, .6),
-                rgba(0, 0, 0, .6)),
-                url('../../images/freight.jpeg')
-                center center no-repeat;
-            background-size: cover;
-            border-radius: .25rem;
-        }
+    &__projects {
+        min-height: 25rem;
+        border-radius: .25rem;
+    }
 
-        &-3 {
-            
-            min-height: 25rem;
-            background: linear-gradient(
-                rgba(0, 0, 0, .6),
-                rgba(0, 0, 0, .6)),
-                url('../../images/pricing.jpeg')
-                center center no-repeat;
+    .p1 {
+        background: linear-gradient(
+            rgba(0, 0, 0, .6),
+            rgba(0, 0, 0, .6)),
+            url('../../images/new-hire.jpeg')
+            center center no-repeat;
             background-size: cover;
-            border-radius: .25rem;
-        }
+    }
+
+    .p2 {           
+        background: linear-gradient(
+            rgba(0, 0, 0, .6),
+            rgba(0, 0, 0, .6)),
+            url('../../images/freight.jpeg')
+            center center no-repeat;
+            background-size: cover;
+    }
+
+    .p3 {          
+        background: linear-gradient(
+            rgba(0, 0, 0, .6),
+            rgba(0, 0, 0, .6)),
+            url('../../images/pricing.jpeg')
+            center center no-repeat;
+            background-size: cover;
+    }
+
+    .p4 {          
+        background: linear-gradient(
+            rgba(0, 0, 0, .6),
+            rgba(0, 0, 0, .6)),
+            url('../../images/pricing.jpeg')
+            center center no-repeat;
+            background-size: cover;
     }
 
     .project-title {

@@ -1,5 +1,24 @@
 .about {
 
+    &__profile {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 2rem;
+    }
+
+    &__bio {
+
+    }
+
+    &__image {
+        width: 20rem;
+        height: 20rem;
+        background: url('../../images/profile-img.png') center center no-repeat;
+        background-size: cover;
+        border-radius: 50%;
+        box-shadow: .5rem .5rem 1.5rem $color-dark;
+    }
+
     &__cards-container {
         margin: 0 2rem;
         margin-bottom: 3rem;
