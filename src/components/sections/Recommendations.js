@@ -65,7 +65,7 @@ const Recommendations = () => {
                 </ul>
             </div>
 
-            <div className='recommendations__letter'>
+            <div className='recommendations__letter mb-sm'>
                 <p className='one-letter mb-sm'>
                     I would like to endorse Rachel Davis as your next Senior Strategic Digital Sales Specialist.  She has displayed perseverance in a number of ways - all of which have enabled her internal customers, BSI Account Executives, to succeed in closing new business.
                 </p>
@@ -89,6 +89,21 @@ const Recommendations = () => {
                     </li>
                     <li className='info-item'>Robyn.mederich@fedex.com</li>
                     <li className='info-item'>651.302.6060</li>
+                </ul>
+            </div>
+
+            <div className='recommendations__letter'>
+                <p className='one-letter mb-sm'>
+                    Since I started at FedEx in early 2019, Rachel has been a beacon of knowledge to help me grow as an AE. Not only did she seem to handle her daily job responsibilities, but she also took the initiative to help me and so many others as a new hire. Rachel was responsible for building a new hire program that gave me the foundational tools to help me become a better AE. I believe Rachel is wonderful at her role because she takes time to truly help all team members and cares about delivering the FedEx promise. I believe Rachel will continue to do very well in any role with FedEx while also elevating other team members due to her natural sense of leadership and teaching skills.
+                </p>
+
+                <ul className='info-list'>
+                    <li className='info-item'>Carvel Montgomery</li>
+                    <li className='info-item'>
+                        Sr. Account Executive
+                    </li>
+                    <li className='info-item'>FedEx Services</li>
+                    <li className='info-item'>469.524.6160</li>
                 </ul>
             </div>
         </div>
