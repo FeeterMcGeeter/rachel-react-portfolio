@@ -17,7 +17,7 @@ const Portfolio = () => {
 
                     <a
                         className='project-link'
-                        href='https://drive.google.com/file/d/1FwEdQ-5YWdS8Ja8VXVHUZucqErP6ewA_/view?usp=sharing'
+                        href='https://drive.google.com/file/d/1tlmnX-V2dCaMENTrdKBwCdbkDK1zfmL8/view?usp=sharing'
                         target='_blank'
                         rel='noopener noreferrer'
                     >
@@ -36,7 +36,7 @@ const Portfolio = () => {
 
                     <a
                         className='project-link'
-                        href='https://drive.google.com/file/d/1wyAD0oqHCcsurow8XtPx30k-bDxROLfY/view?usp=sharing'
+                        href='https://drive.google.com/file/d/1PK6HqChu-1-Sg97stTJnbnMRu_w2hNuu/view?usp=sharing'
                         target='_blank'
                         rel='noopener noreferrer'
                     >
@@ -55,7 +55,7 @@ const Portfolio = () => {
 
                     <a
                         className='project-link'
-                        href='https://drive.google.com/file/d/1g4AVn5r6ARwgFeBGBTfKcdd-c53DsDto/view?usp=sharing'
+                        href='https://drive.google.com/file/d/15122KtCF0R1YSU20xGzTWmw2cl-k4Fq4/view?usp=sharing'
                         target='_blank'
                         rel='noopener noreferrer'
                     >
@@ -74,7 +74,7 @@ const Portfolio = () => {
 
                     <a
                         className='project-link'
-                        href='https://drive.google.com/file/d/1Ga_kX5tgbed6jlqjVif8PvaBbSvRT7T4/view?usp=sharing'
+                        href='https://drive.google.com/file/d/1mrXgdQqMN73eriRYNtqgRckVeL2RFqEN/view?usp=sharing'
                         target='_blank'
                         rel='noopener noreferrer'
                     >
@@ -93,7 +93,7 @@ const Portfolio = () => {
 
                     <a
                         className='project-link'
-                        href='https://drive.google.com/file/d/1Axu-24ZMUPmObT8_oabxkeG5yke3acPk/view?usp=sharing'
+                        href='https://drive.google.com/file/d/1ZhNKZ9W5xBma86G8p30U0PXQxu7lTuHL/view?usp=sharing'
                         target='_blank'
                         rel='noopener noreferrer'
                     >
@@ -112,7 +112,7 @@ const Portfolio = () => {
 
                     <a
                         className='project-link'
-                        href='https://drive.google.com/file/d/1lHA96E1H3yu-8qqtPMeTn3L-lw-lYLoz/view?usp=sharing'
+                        href='https://drive.google.com/file/d/1dJw-9o4ktqFk6yBeqJDDls--HYV4Wqr6/view?usp=sharing'
                         target='_blank'
                         rel='noopener noreferrer'
                     >
@@ -131,7 +131,7 @@ const Portfolio = () => {
 
                     <a
                         className='project-link'
-                        href='https://drive.google.com/file/d/153X8y6p8JmX8Qqzu-UGzU4gPtqIcVIeJ/view?usp=sharing'
+                        href='https://drive.google.com/file/d/1Bd05_LrWZwmwGIzLItVaYAqTV97dyjfU/view?usp=sharing'
                         target='_blank'
                         rel='noopener noreferrer'
                     >
@@ -150,7 +150,7 @@ const Portfolio = () => {
 
                     <a
                         className='project-link'
-                        href='https://drive.google.com/file/d/1ZM-ra3E-UtTbHatgRzr5zirJJkdbpXD5/view?usp=sharing'
+                        href='https://drive.google.com/file/d/1bCfAdtP9kP5SdmV4xhRxQBQu3Qm-Njll/view?usp=sharing'
                         target='_blank'
                         rel='noopener noreferrer'
                     >
