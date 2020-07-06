@@ -1,15 +1,5 @@
 .contact {
 
-    &__image {
-        width: 22.5rem;
-        height: 22.5rem;
-        margin: 0 auto 4rem auto;
-        background: url('../../images/profile-img.jpeg') center center no-repeat;
-        background-size: cover;
-        border-radius: 50%;
-        box-shadow: .5rem .5rem 1.5rem $color-dark;
-    }
-
     &__list {
         display: flex;
         justify-content: center;

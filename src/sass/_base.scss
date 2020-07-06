@@ -88,6 +88,11 @@ body {
     color: $color-primary;
 }
 
+// Bold text
+.bold {
+    font-weight: 700;
+}
+
 // Centering the content inside the project
 .center {
     @include flexColCenter;

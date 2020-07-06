@@ -7,8 +7,6 @@ const Contact = () => {
                 Contact Me
             </h1>
 
-            <div className='contact__image'></div>
-
             {/* Social Media & Email */}
             <ul className='contact__list mb-lg'>
                 <li className='contact__item'>

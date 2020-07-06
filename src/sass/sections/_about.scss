@@ -27,6 +27,15 @@
                     -.3rem -.3rem 1.5rem $color-light;
     }
 
+    // Giving the last card two columns
+    .a1 {
+        grid-column: 1 / -1;
+    }
+
+    .first-card {
+        min-height: 15rem;
+    }
+
     // Family card
     .family {
         height: 22rem;
@@ -35,20 +44,6 @@
         @media screen and (max-width: 75em) {
             flex-direction: column;
         }
-
-        // &-image {
-        //     flex: 2;
-        //     width: 100%;
-        //     height: 100%;
-        //     margin-right: 1rem;
-        //     background: url('../../images/family.jpeg')
-        //                 center center no-repeat;
-        //     background-size: cover;
-        // }
-
-        // &-info {
-        //     flex: 1;
-        // }
     }
 
     // Lists
@@ -56,13 +51,13 @@
         list-style-type: none;
     }
 
-    &__item {
-        margin-bottom: .5rem;
+    &__subitem {
+        margin-left: 2rem;
+    }
 
-        i {
-            color: $color-primary;
-            margin-right: 1rem;
-        }
+    i {
+        color: $color-primary;
+        margin-right: 1rem;
     }
 
     // Card links
@@ -70,7 +65,6 @@
         text-transform: uppercase;
         color: $color-primary;
         font-size: 1.8rem;
-        font-weight: 700;
         border-bottom: .1rem solid $color-primary;
         text-decoration: none;
     }

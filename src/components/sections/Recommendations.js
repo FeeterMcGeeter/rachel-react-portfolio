@@ -50,7 +50,7 @@ const Recommendations = () => {
                 </ul>
             </div>
 
-            <div className='recommendations__letter'>
+            <div className='recommendations__letter mb-sm'>
                 <p className='one-letter mb-sm'>
                     Rachel's level of knowledge and skillset has allowed her to gain the respect of her peers.  The sales professionals trust her to understand and know freight, solutions, and to devise strategies to help them win and retain LTL business.  She has always been approachable, fun loving, and friendly, so people feel safe in coming to you regarding and opportunity or challenge to get her perspective and/or guidance.  Despite Rachel's wonderful personal situation, she is always a helping hand and available to help the sales professionals on new questions, or different ways to ask questions to obtain a different outcome, or enrich the conversation that will make them a better business partner.  The customers of our sales professionals understand her skillset as well as see her as a trusted consultant who is truly providing value and helping them in their industry, understanding the marketplace, and enhancing their brand.
                 </p>
@@ -62,6 +62,33 @@ const Recommendations = () => {
                     </li>
                     <li className='info-item'>Business Sales Inside</li>
                     <li className='info-item'>469.524.6052</li>
+                </ul>
+            </div>
+
+            <div className='recommendations__letter'>
+                <p className='one-letter mb-sm'>
+                    I would like to endorse Rachel Davis as your next Senior Strategic Digital Sales Specialist.  She has displayed perseverance in a number of ways - all of which have enabled her internal customers, BSI Account Executives, to succeed in closing new business.
+                </p>
+
+                <p className='one-letter mb-sm'>
+                    Rachel's commitment to improving the BSI new hire experience has paid off across the organization.  Her ability to connect the dots with our brand new Account Executives gives them a better launching point to their sales success, and her creativity and organization in developing the content keeps the AEs inspired, engaged, and on track when taking in the education she and the DSS team members provide.
+                </p>
+
+                <p className='one-letter mb-sm'>
+                    Peer leadership is an incredibly effective tool, yet not everyone is willing to put themselves on the line to hold others accountable.  That is not the case with Rachel.  She is willing to speak up for what is right and fair in DSS, BSI, and FedEx, which is in keeping with the FedEx focus on personal accountability.
+                </p>
+
+                <p className='one-letter mb-sm'>
+                    Rachel has shown herself to be a valuable asset and as a Senior Strategic Digital Sales Specialist, she will undoubtedly continue to serve her internal and external customers for the success of the organization.
+                </p>
+
+                <ul className='info-list'>
+                    <li className='info-item'>Robyn Mederich</li>
+                    <li className='info-item'>
+                        Manager Sales
+                    </li>
+                    <li className='info-item'>Robyn.mederich@fedex.com</li>
+                    <li className='info-item'>651.302.6060</li>
                 </ul>
             </div>
         </div>
