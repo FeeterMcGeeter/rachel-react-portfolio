@@ -75,7 +75,7 @@ const Portfolio = () => {
                     </h2>
 
                     <p className='project-subtitle'>
-                        Shark Tank presentation on untapped market through social media
+                        How DSS can be proactive with BSIO B2B e-commerce Opportunities
                     </p>
 
                     <a
@@ -113,7 +113,7 @@ const Portfolio = () => {
                     </h2>
 
                     <p className='project-subtitle'>
-                        Shark Tank presentation on untapped market through social media
+                        How DSS can be proactive with BSIO e-commerce customers through search engines and platforms
                     </p>
 
                     <a

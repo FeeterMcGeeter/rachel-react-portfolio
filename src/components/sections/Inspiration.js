@@ -3,18 +3,14 @@ import ReactPlayer from 'react-player';
 
 const Inspiration = () => {
     return (
-        <div className='inspiration'>
+        <div className='inspiration mb-lg'>
             <h1 className='heading-2 mb-md'>
                 Inspiration
             </h1>
-            <div className='inspiration__blockquote mb-lg'>
-                <blockquote className='inspiration__quote'>
-                    Winning is fun... Sure. But winning is not the point.
-                    Wanting to win is the point. Not giving up is the point.
-                    Never letting up is the point. Never being satisfied with
-                    what you've done is the point.
-                    <span><i>- Pat Summit</i></span>
-                </blockquote>
+            <div className='inspiration__content mb-lg'>
+                <p className='inspiration__text'>
+                    Valorie Kondos Field spoke in a great Tedtalk about her experience as the head gymnastics coach at UCLA.  She discusses how when she coached she had the mindset of "Winning = Success".  For the majority of my professional career I have had that same mindset.  In the past year I took a pause and really started to see that winning does not equal success.  For me, success is everything I am learning day to day.  I do not have to always be number one, as long as I continue to open myself up to growing as an indivudal I have succeeded.  
+                </p>
 
                 <div className='inspiration__player-wrapper'>
                     <ReactPlayer

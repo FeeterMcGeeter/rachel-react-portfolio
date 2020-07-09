@@ -7,7 +7,7 @@ const About = () => {
 
             <div className='about__cards-container'>
                 <div className='about__card a1'>
-                    <h3 className='heading-3 card-title'>What I Do</h3>
+                    <h3 className='heading-3 card-title'>This Past Year</h3>
 
                     <div className='about__card-description'>
                         <p className='about__card-paragraph'>
@@ -36,7 +36,7 @@ const About = () => {
                             organization, unified teams, and gave the AE a
                             better understanding on our specialties in Freight,
                             International, automation, and e-commerce. I will
-                            continiue to share my "outside of the box" ideas to
+                            continue to share my "outside of the box" ideas to
                             help support the Sales & Support organization,
                             Business & Field organization, and FedEx as a whole.
                         </p>
