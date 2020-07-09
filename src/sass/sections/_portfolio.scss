@@ -13,7 +13,7 @@
         border-radius: .25rem;
     }
 
-    // Project 1
+    // New Hire DSS
     .p1 {
         background: linear-gradient(
             rgba(0, 0, 0, .6),
@@ -23,28 +23,8 @@
             background-size: cover;
     }
 
-    // Project 2
+    // DSS EDU Core
     .p2 {           
-        background: linear-gradient(
-            rgba(0, 0, 0, .6),
-            rgba(0, 0, 0, .6)),
-            url('../../images/freight.jpeg')
-            center center no-repeat;
-            background-size: cover;
-    }
-
-    // Project 3
-    .p3 {          
-        background: linear-gradient(
-            rgba(0, 0, 0, .6),
-            rgba(0, 0, 0, .6)),
-            url('../../images/pricing.jpeg')
-            center center no-repeat;
-            background-size: cover;
-    }
-
-    // Project 4
-    .p4 {          
         background: linear-gradient(
             rgba(0, 0, 0, .6),
             rgba(0, 0, 0, .6)),
@@ -53,7 +33,27 @@
             background-size: cover;
     }
 
-    // Project 5
+    // Success Stories
+    .p3 {          
+        background: linear-gradient(
+            rgba(0, 0, 0, .6),
+            rgba(0, 0, 0, .6)),
+            url('../../images/success.jpeg')
+            center center no-repeat;
+            background-size: cover;
+    }
+
+    // E-Commerce Prospecting
+    .p4 {          
+        background: linear-gradient(
+            rgba(0, 0, 0, .6),
+            rgba(0, 0, 0, .6)),
+            url('../../images/ecommerce.jpeg')
+            center center no-repeat;
+            background-size: cover;
+    }
+
+    // Shark Tank
     .p5 {          
         background: linear-gradient(
             rgba(0, 0, 0, .6),
@@ -63,32 +63,12 @@
             background-size: cover;
     }
 
-    // Project 6
+    // Opportunities
     .p6 {          
         background: linear-gradient(
             rgba(0, 0, 0, .6),
             rgba(0, 0, 0, .6)),
-            url('../../images/incentive.jpeg')
-            center center no-repeat;
-            background-size: cover;
-    }
-
-    // Project 7
-    .p7 {          
-        background: linear-gradient(
-            rgba(0, 0, 0, .6),
-            rgba(0, 0, 0, .6)),
-            url('../../images/success.jpeg')
-            center center no-repeat;
-            background-size: cover;
-    }
-
-    // Project 8
-    .p8 {          
-        background: linear-gradient(
-            rgba(0, 0, 0, .6),
-            rgba(0, 0, 0, .6)),
-            url('../../images/specialist.jpeg')
+            url('../../images/opportunity.jpeg')
             center center no-repeat;
             background-size: cover;
     }
