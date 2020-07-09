@@ -5,7 +5,7 @@ const Hero = () => {
     return (
         <div className='hero mb-lg'>
             <div className='hero__content'>
-                <h1 className='hero__title mb-sm'>Senior Strategic Sales & Support</h1>
+                <h1 className='hero__title mb-sm'>Senior Strategic Sales Specialist</h1>
                 <p className='hero__subtitle mb-md'>
                     Hi, I'm Rachel.  I'm a Senior Specialist with extensive knowledge in E-Commerce consulting and Freight shipping.
                 </p>
