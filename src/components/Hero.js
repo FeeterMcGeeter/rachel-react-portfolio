@@ -16,7 +16,9 @@ const Hero = () => {
                     duration={500}
                     className='hero__button'
                 >
-                    View Portfolio
+                    View My Work
+                    
+                    <i className='fas fa-arrow-right' />
                 </Link>
             </div>
         </div>

@@ -15,6 +15,18 @@ const Navbar = props => {
                 <ul className="navbar__list">
                     <li className="navbar__item">
                         <Link
+                            to='portfolio'
+                            spy={true}
+                            smooth={true}
+                            duration={500}
+                            className='navbar__link'
+                        >
+                            Projects
+                        </Link>
+                    </li>
+
+                    <li className='navbar__item'>
+                        <Link
                             to='about'
                             spy={true}
                             smooth={true}
@@ -22,18 +34,6 @@ const Navbar = props => {
                             className='navbar__link'
                         >
                             About
-                        </Link>
-                    </li>
-
-                    <li className='navbar__item'>
-                        <Link
-                            to='portfolio'
-                            spy={true}
-                            smooth={true}
-                            duration={500}
-                            className='navbar__link'
-                        >
-                            Portfolio
                         </Link>
                     </li>
 

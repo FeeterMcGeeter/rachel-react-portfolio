@@ -20,19 +20,6 @@ const SideDrawer = (props) => {
                 <ul className='side-drawer__list'>
                     <li className='side-drawer__item'>
                         <Link
-                            to='about'
-                            spy={true}
-                            smooth={true}
-                            duration={500}
-                            className='side-drawer__link'
-                            onClick={props.click}
-                        >
-                            About
-                        </Link>
-                    </li>
-
-                    <li className='side-drawer__item'>
-                        <Link
                             to='portfolio'
                             spy={true}
                             smooth={true}
@@ -40,7 +27,20 @@ const SideDrawer = (props) => {
                             className='side-drawer__link'
                             onClick={props.click}
                         >
-                            Portfolio
+                            Projects
+                        </Link>
+                    </li>
+
+                    <li className='side-drawer__item'>
+                        <Link
+                            to='About'
+                            spy={true}
+                            smooth={true}
+                            duration={500}
+                            className='side-drawer__link'
+                            onClick={props.click}
+                        >
+                            About
                         </Link>
                     </li>
 

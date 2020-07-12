@@ -3,7 +3,6 @@
     &__cards-container {
         margin: 0 2rem;
         margin-bottom: 3rem;
-
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         grid-gap: 2rem;
@@ -19,8 +18,7 @@
 
     &__card-description {
         font-size: 1.4rem;
-        min-height: 22rem;
-        padding: 1rem;
+        padding: 1.5rem;
         border-radius: .25rem;
         // box-shadow: 0 .3rem 1rem $color-dark;
         box-shadow: .3rem .3rem 1.5rem #E6E6E6,
@@ -74,6 +72,7 @@
 
     // Lists
     &__list {
+        height: 12rem;
         list-style-type: none;
     }
 

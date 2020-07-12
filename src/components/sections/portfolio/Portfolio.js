@@ -1,9 +1,15 @@
 import React from 'react';
+import Strategic from './Strategic';
+import Projects from './Projects';
 
 const Portfolio = () => {
     return (
         <div className='portfolio mb-lg'>
-            <h1 className='heading-1 mb-md'>Portfolio</h1>
+            <h1 className="heading-1 mb-md">My Work</h1>
+            
+            <Strategic />
+            <Projects />
+            {/* <h1 className='heading-1 mb-md'>Portfolio</h1>
 
             <h2 className="heading-2 mb-md">Projects & Success Stories</h2>
 
@@ -125,7 +131,7 @@ const Portfolio = () => {
                         Link to Presentation
                     </a>
                 </div>
-            </div>
+            </div> */}
         </div>
     );
 };

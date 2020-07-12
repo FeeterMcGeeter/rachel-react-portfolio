@@ -1,17 +1,74 @@
 .portfolio {
     margin-left: 2rem;
     margin-right: 2rem;
+}
 
-    &__projects-container {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(27.5rem, 1fr));
-        grid-gap: 2rem;
+// Container for both components
+.projects-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(27.5rem, 1fr));
+    grid-gap: 2rem;
+
+    @media screen and (max-width: 37.5em) {
+        place-items: center;
     }
 
-    &__projects {
+    .card {
         min-height: 25rem;
         border-radius: .25rem;
+
+        @media screen and (max-width: 57.5em) {
+            max-width: 42rem;
+        }
     }
+}
+
+// Strategic Thinking component
+.strategic {
+
+    &__description {
+        text-align: center;
+    }
+
+    // E-Commerce Prospecting
+    .s1 {          
+        background: linear-gradient(
+            rgba(0, 0, 0, .6),
+            rgba(0, 0, 0, .6)),
+            url('../../images/ecommerce.jpeg')
+            center center no-repeat;
+            background-size: cover;
+    }
+
+    // Shark Tank
+    .s2 {          
+        background: linear-gradient(
+            rgba(0, 0, 0, .6),
+            rgba(0, 0, 0, .6)),
+            url('../../images/shark.jpeg')
+            center center no-repeat;
+            background-size: cover;
+    }
+
+    // Opportunities
+    .s3 {          
+        background: linear-gradient(
+            rgba(0, 0, 0, .6),
+            rgba(0, 0, 0, .6)),
+            url('../../images/opportunity.jpeg')
+            center center no-repeat;
+            background-size: cover;
+
+        @media screen and (max-width: 57.5em) {
+            grid-column: 1 / -1;
+            justify-self: center;
+            align-self: center;
+        }
+    }
+}
+
+// Projects & Success Stories component
+.projects {
 
     // New Hire DSS
     .p1 {
@@ -41,67 +98,44 @@
             url('../../images/success.jpeg')
             center center no-repeat;
             background-size: cover;
-    }
 
-    // E-Commerce Prospecting
-    .p4 {          
-        background: linear-gradient(
-            rgba(0, 0, 0, .6),
-            rgba(0, 0, 0, .6)),
-            url('../../images/ecommerce.jpeg')
-            center center no-repeat;
-            background-size: cover;
-    }
-
-    // Shark Tank
-    .p5 {          
-        background: linear-gradient(
-            rgba(0, 0, 0, .6),
-            rgba(0, 0, 0, .6)),
-            url('../../images/shark.jpeg')
-            center center no-repeat;
-            background-size: cover;
-    }
-
-    // Opportunities
-    .p6 {          
-        background: linear-gradient(
-            rgba(0, 0, 0, .6),
-            rgba(0, 0, 0, .6)),
-            url('../../images/opportunity.jpeg')
-            center center no-repeat;
-            background-size: cover;
-    }
-
-    .project-title {
-        color: $color-light;
-        font-size: 1.8rem;
-        margin-bottom: 1rem;
-    }
-
-    .project-subtitle {
-        color: rgba($color-light, .9);
-        font-size: 1.2rem;
-        padding: 0 .5rem;
-        margin-bottom: 1rem;
-        text-align: center;
-    }
-
-    .project-link {
-        text-decoration: none;
-        color: $color-light;
-        font-size: 1.2rem;
-        padding: .5rem 1rem;
-        background-color: $color-primary;
-        border-radius: .5rem;
-
-        &:hover {
-            background: $color-hover;
-            color: $color-dark;
-            -webkit-box-shadow: 0 .3rem 1.2rem rgba($color-light, .3); 
-            box-shadow: 0 .3rem 1.2rem rgba($color-light, .3);
-            letter-spacing: .1rem;
-            transition: all .1s ease;
+        @media screen and (max-width: 57.5em) {
+            grid-column: 1 / -1;
+            justify-self: center;
+            align-self: center;
         }
+    }
+}
+
+// Title / Subtitle / Link for each project
+.title {
+    color: $color-light;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.subtitle {
+    color: rgba($color-light, .9);
+    font-size: 1.2rem;
+    padding: 0 .5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.link {
+    text-decoration: none;
+    color: $color-light;
+    font-size: 1.2rem;
+    padding: .5rem 1rem;
+    background-color: $color-primary;
+    border-radius: .5rem;
+    transition: all .3s ease;
+
+    &:hover {
+        background: $color-hover;
+        color: $color-dark;
+        -webkit-box-shadow: 0 .3rem 1.2rem rgba($color-light, .3); 
+        box-shadow: 0 .3rem 1.2rem rgba($color-light, .3);
+        letter-spacing: .1rem;
     }
 }

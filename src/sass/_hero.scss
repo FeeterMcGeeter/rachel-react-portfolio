@@ -42,6 +42,7 @@
         border-radius: .5rem;
         cursor: pointer;
         display: inline-block;
+        transition: all .5s ease;
 
         &:hover {
             background: $color-hover;
@@ -49,7 +50,19 @@
             -webkit-box-shadow: 0 .3rem 1.2rem rgba($color-light, .3); 
             box-shadow: 0 .3rem 1.2rem rgba($color-light, .3);
             letter-spacing: .3rem;
-            transition: all .3s ease;
+
+            i {
+                animation: rotate .3s forwards linear;
+            }
+        }
+
+        // Arrow right icon
+        i {
+            margin-left: 1.5rem;
+
+            @media screen and (max-width: 48em) {
+                transform: rotate(90deg);
+            }
         }
 
         @media screen and (max-width: 48em) {
@@ -65,5 +78,16 @@
             url('../images/profile-mobile-img.png')
             center no-repeat;
         background-size: cover;
+    }
+}
+
+// Icon animation
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(90deg)
     }
 }

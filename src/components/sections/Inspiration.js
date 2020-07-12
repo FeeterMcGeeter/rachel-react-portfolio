@@ -4,7 +4,7 @@ import ReactPlayer from 'react-player';
 const Inspiration = () => {
     return (
         <div className='inspiration mb-lg'>
-            <h1 className='heading-2 mb-md'>
+            <h1 className='heading-1 mb-md'>
                 Inspiration
             </h1>
             <div className='inspiration__content mb-lg'>
