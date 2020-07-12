@@ -18,7 +18,7 @@
     &__title {
         font-size: 4rem;
 
-        @media screen and (max-width: 48em) {
+        @include maxTablet {
             font-size: 3rem;
         }
     }
@@ -27,8 +27,9 @@
         font-size: 1.6rem;
         filter: brightness(95%);
 
-        @media screen and (max-width: 48em) {
+        @include maxTablet {
             font-size: 1.4rem;
+            padding: 0 2rem;
         }
     }
 
@@ -60,18 +61,18 @@
         i {
             margin-left: 1.5rem;
 
-            @media screen and (max-width: 48em) {
+            @include maxTablet {
                 transform: rotate(90deg);
             }
         }
 
-        @media screen and (max-width: 48em) {
+        @include maxTablet {
             font-size: 1.4rem;
             padding: 1rem 1.8rem;
         }
     }
 
-    @media screen and (max-width: 26.5em) {
+    @media screen and (max-width: 37.5em) {
         background: linear-gradient(
             rgba(0, 0, 0, .6),
             rgba(0, 0, 0, .6)),

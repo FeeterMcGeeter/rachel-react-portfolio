@@ -88,7 +88,7 @@
 }
 
 // Side drawer is removed on screens larger than tablets
-@media (min-width: $bp-tablet) {
+@include minTablet {
     .side-drawer {
         display: none;
     }

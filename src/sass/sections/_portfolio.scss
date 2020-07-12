@@ -9,17 +9,9 @@
     grid-template-columns: repeat(auto-fit, minmax(27.5rem, 1fr));
     grid-gap: 2rem;
 
-    @media screen and (max-width: 37.5em) {
-        place-items: center;
-    }
-
     .card {
         min-height: 25rem;
         border-radius: .25rem;
-
-        @media screen and (max-width: 57.5em) {
-            max-width: 42rem;
-        }
     }
 }
 
@@ -28,6 +20,7 @@
 
     &__description {
         text-align: center;
+        font-size: 1.6rem;
     }
 
     // E-Commerce Prospecting
@@ -58,12 +51,6 @@
             url('../../images/opportunity.jpeg')
             center center no-repeat;
             background-size: cover;
-
-        @media screen and (max-width: 57.5em) {
-            grid-column: 1 / -1;
-            justify-self: center;
-            align-self: center;
-        }
     }
 }
 
@@ -98,12 +85,6 @@
             url('../../images/success.jpeg')
             center center no-repeat;
             background-size: cover;
-
-        @media screen and (max-width: 57.5em) {
-            grid-column: 1 / -1;
-            justify-self: center;
-            align-self: center;
-        }
     }
 }
 

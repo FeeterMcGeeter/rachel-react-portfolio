@@ -7,7 +7,7 @@
         grid-template-columns: repeat(4, 1fr);
         grid-gap: 2rem;
 
-        @media screen and (min-width: 75em) {
+        @include minDesktop {
             grid-template-columns: repeat(auto-fit, minmax(50rem, 1fr));
         }
     }
@@ -20,7 +20,6 @@
         font-size: 1.4rem;
         padding: 1.5rem;
         border-radius: .25rem;
-        // box-shadow: 0 .3rem 1rem $color-dark;
         box-shadow: .3rem .3rem 1.5rem #E6E6E6,
                     -.3rem -.3rem 1.5rem $color-light;
     }
@@ -32,7 +31,7 @@
 
     .a2 {
 
-        @media screen and (max-width: 75em) {
+        @include maxDesktop {
             grid-column: 1 / 3;
         }
 
@@ -43,7 +42,7 @@
 
     .a3 {
 
-        @media screen and (max-width: 75em) {
+        @include maxDesktop {
             grid-column: 3 / -1;
         }
 
@@ -58,16 +57,6 @@
 
     &__card-paragraph {
         margin-bottom: 1rem;
-    }
-
-    // Family card
-    .family {
-        height: 22rem;
-        display: flex;
-
-        @media screen and (max-width: 75em) {
-            flex-direction: column;
-        }
     }
 
     // Lists

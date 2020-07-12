@@ -62,7 +62,7 @@
     }
 }
 
-@media (max-width: $bp-tablet) {
+@include maxTablet {
     .navbar__list {
         display: none;
     }

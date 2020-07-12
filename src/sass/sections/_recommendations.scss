@@ -15,7 +15,7 @@
         list-style-type: none;
         display: flex;
 
-        @media screen and (max-width: 48em) {
+        @include maxTablet {
             flex-direction: column;
         }
     }
@@ -28,7 +28,7 @@
             padding-right: 1rem;
             margin-right: 1rem;
 
-            @media screen and (max-width: 48em) {
+            @include maxTablet {
                 border-right: none;
                 padding-right: 0;
                 margin-right: 0;
