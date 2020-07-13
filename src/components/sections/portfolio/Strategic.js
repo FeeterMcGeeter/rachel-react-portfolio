@@ -6,7 +6,7 @@ const Strategic = () => {
             <h2 className="heading-2 mb-sm">Strategic Thinking</h2>
 
             <p className="strategic__description mb-sm">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident molestias facere neque accusantium necessitatibus fuga, fugiat quasi. Fugiat earum nesciunt repudiandae. A facere similique eos. Rerum laboriosam ipsum tempore. Id.
+                 I am able to be an agent of change by executing ideas in to action, synthesize broad information, participate in a culture of curiosity, and gain experiences that allow me to connect the dots in an original way.
             </p>
 
             <div className="projects-container mb-md">
