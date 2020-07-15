@@ -31,7 +31,7 @@ const Projects = () => {
                     </h2>
 
                     <p className='subtitle'>
-                        Creating a CORE library for BSIO - basic level training for any level of sales
+                        Creating a CORE library for BSI - basic level training for any level of sales
                     </p>
 
                     <a

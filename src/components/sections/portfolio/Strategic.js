@@ -16,7 +16,7 @@ const Strategic = () => {
                     </h2>
 
                     <p className='subtitle'>
-                        How DSS can be proactive with BSIO B2B e-commerce Opportunities
+                        How DSS can be proactive with BSI B2B e-commerce Opportunities
                     </p>
 
                     <a
@@ -54,7 +54,7 @@ const Strategic = () => {
                     </h2>
 
                     <p className='subtitle'>
-                        How DSS can be proactive with BSIO e-commerce customers through search engines and platforms
+                        How DSS can be proactive with BSI e-commerce customers through search engines and platforms
                     </p>
 
                     <a
