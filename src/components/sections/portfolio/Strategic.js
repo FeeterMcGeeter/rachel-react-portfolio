@@ -59,7 +59,7 @@ const Strategic = () => {
 
                     <a
                         className='link'
-                        href='https://drive.google.com/file/d/1bypiEyE6sFv5HRfdXuW6Yo4_Dll4dP2H/view?usp=sharing'
+                        href='https://drive.google.com/file/d/1Ed0cMU2TBEAVe1Jifq8VEMGIw4GA7qwy/view?usp=sharing'
                         target='_blank'
                         rel='noopener noreferrer'
                     >
